@@ -1,0 +1,14 @@
+<Context>
+    <Resource name="jdbc/Course2"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="oracle.jdbc.driver.OracleDriver"
+              url="jdbc:oracle:thin:@localhost:1521:xe"
+              username="QRUP11"
+              password="12345"
+              maxActive="20"
+              minIdle="0"
+              maxIdle="8"
+              maxWait="10000"
+    />
+</Context>
